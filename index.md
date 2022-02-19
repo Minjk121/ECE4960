@@ -9,7 +9,7 @@ layout: default
 In this course, we design a fast autonomous car and explore dynamic behaviors, acting forces, sensors, and reactive control on an embedded processor. We implement Artemis Nano, motor drivers, time of flight sensors, proximity sensor, and intertial measurement unit. More information can be found [here](https://cei-lab.github.io/ECE4960-2022/).
 
 --
-### [Lab 3: Sensors](labs/lab3.md)
+### [Lab 3: Sensors](labs/lab3.html)
 ### [Lab 4: Characterize your car](labs/lab4.md)
 ### [Lab 5: Motor driver and open loop control](labs/lab5.md)
 ### [Lab 6: PID speed control](labs/lab6.md)
