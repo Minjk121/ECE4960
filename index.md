@@ -2,7 +2,7 @@
 
 ## ECE4960
 
-### [Lab3: Sensors](https://minjk121.github.io/ECE4960/lab3.md)
+### [Lab3: Sensors](ECE4960/lab3.md)
 
 
 Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
