@@ -1,3 +1,9 @@
+---
+title: ECE4960
+description: <a href="https://minjk121.github.io/ECE4960/" style="color:#FFCC00;">Fast Robots, Fall 2020</a>
+layout: home
+---
+
 [Back to website](https://minjk121.github.io/) 
 
 ## ECE4960 Fast Robots
