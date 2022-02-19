@@ -1,3 +1,9 @@
+---
+title: ECE4960
+description: <a href="https://minjk121.github.io/ECE4960/" style="color:#FFCC00;">Fast Robots, Fall 2020</a>
+layout: home
+---
+
 [Back to website](https://minjk121.github.io/) 
 
 ## ECE4960 Fast Robots
@@ -5,13 +11,13 @@
 In this course, we design a fast autonomous car and explore dynamic behaviors, acting forces, sensors, and reactive control on an embedded processor. We implement Artemis Nano, motor drivers, time of flight sensors, proximity sensor, and intertial measurement unit. More information can be found [here](https://cei-lab.github.io/ECE4960-2022/).
 
 --
-### [Lab 3: Sensors](ECE4960/lab3.md)
-### [Lab 4: Characterize your car](/ECE4960/lab4.md)
-### [Lab 5: Motor driver and open loop control](/ECE4960/lab5.md)
-### [Lab 6: PID speed control](/ECE4960/lab6.md)
-### [Lab 7: Kalman Filters](/ECE4960/lab7.md)
-### [Lab 8: Stunts](/ECE4960/lab8.md)
-### [Lab 9: Mapping](/ECE4960/lab9.md)
+### [Lab 3: Sensors](labs/lab3.md)
+### [Lab 4: Characterize your car](labs/lab4.md)
+### [Lab 5: Motor driver and open loop control](labs/lab5.md)
+### [Lab 6: PID speed control](labs/lab6.md)
+### [Lab 7: Kalman Filters](labs/lab7.md)
+### [Lab 8: Stunts](labs/lab8.md)
+### [Lab 9: Mapping](labs/lab9.md)
 <!-- --
 Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
 
