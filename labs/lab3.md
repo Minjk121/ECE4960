@@ -1,3 +1,10 @@
+---
+title: Sensors
+description: <a href="https://minjk121.github.io/ECE4960/labs/lab3.html" style="color:#FFCC00;">Lab 1</a>
+layout: page
+
+---
+
 # Lab 3: Sensors
 
 You can use the [editor on GitHub](https://github.com/Minjk121/ECE4960/edit/gh-pages/index.md) to maintain and preview the content for your website in Markdown files.
