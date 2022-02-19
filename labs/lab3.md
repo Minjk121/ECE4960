@@ -1,6 +1,6 @@
 ---
 title: Sensors
-description: <a href="https://minjk121.github.io/ECE4960/labs/lab3.html" style="color:#FFCC00;">Lab 1</a>
+description: <a href="https://minjk121.github.io/ECE4960/lab3.html" style="color:#FFCC00;">Lab 1</a>
 layout: default
 
 ---
