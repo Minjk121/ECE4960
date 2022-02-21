@@ -10,12 +10,12 @@ In this course, we design a fast autonomous car and explore dynamic behaviors, a
 
 --
 ### [Lab 3: Sensors](labs/lab3.html)
-### [Lab 4: Characterize your car](labs/lab4.md)
-### [Lab 5: Motor driver and open loop control](labs/lab5.md)
-### [Lab 6: PID speed control](labs/lab6.md)
-### [Lab 7: Kalman Filters](labs/lab7.md)
-### [Lab 8: Stunts](labs/lab8.md)
-### [Lab 9: Mapping](labs/lab9.md)
+### [Lab 4: Characterize your car](labs/lab4.html)
+### [Lab 5: Motor driver and open loop control](labs/lab5.html)
+### [Lab 6: PID speed control](labs/lab6.html)
+### [Lab 7: Kalman Filters](labs/lab7.html)
+### [Lab 8: Stunts](labs/lab8.html)
+### [Lab 9: Mapping](labs/lab9.html)
 <!-- --
 Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
 
