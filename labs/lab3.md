@@ -1,8 +1,3 @@
-
-
-<!-- <meta http-equiv="refresh" content="0; url=https://minjk121.github.io/ECE4960/labs/lab3.html">
- -->
-
 ---
 layout: default
 ---
