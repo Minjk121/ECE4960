@@ -3,6 +3,7 @@ layout: default
 ---
 
 # Lab 4: Characterize your car
+[main picture](img4/cyclone_car.jpg)
 
 The goal of the lab is to understand the characteristics and capabilities of the robot before adding motor drive driver for the future labs. 
 Before this lab, the Artemis board, IMU and TOF sensors were soldered and connected.
@@ -13,7 +14,7 @@ Before this lab, the Artemis board, IMU and TOF sensors were soldered and connec
 
 Simple measurements were collected without any control of the car. Its length, width and wheel diameter are measured as shown in the manual below:
 
-![manual](img4/manual_pic.jpg)
+![manual](img4/manual_pic.jpg = 100x20)
 
 The following pictures demonstrate the method of measuring the length and weight of the robot. A ruler, tape measure, and food scale were used for the tools:
 ![car with ruler](img4/length.jpg)
