@@ -74,10 +74,19 @@ The average rotational speed with 850mAh was also measured by pressing the right
 | ------------------- | ----------------------- | -------------------------- | --------------------------- |
 | Average Measurement |           11.96         |             11.76          |         4.0 rev/sec         |
 
+The average acceleration was also measured by starting the car from zero speed to a certain distance. The same acceleration formula was used to calculate with the same assumption made. The following video demonstrates the acceleration of the robot on the tile and on the carpet:
+
+[![IMAGE ALT TEXT](http://img.youtube.com/vi/wX4UOHpYZAk/0.jpg)](https://youtu.be/wX4UOHpYZAk)
+
+|        Tests       | Acceleration on Tile (ft/s^2) | Acceleration on Carpet (ft/m^2) |
+| ------------------ | ----------------------------- | ------------------------------- |
+| Average Measurement|             15.026            |              20.267             |
+
+The raw data and measurements can be found [here](https://docs.google.com/spreadsheets/d/1qhgUpPfrdejO-G7NgExDeQwxTbVRu8TjzxINOiwqS0w/edit#gid=0)
 
 #### Stunts: 
 
-The model allows double-sided stunts with 360-degree rotation. With these dynamic movements, three stunts were demonstrated in the following videos:
+The model allows double-sided stunts with 360-degree rotation. With these dynamic movements, three stunts were demonstrated in the following videos.
 
 Rotating right and left:
 
@@ -92,9 +101,9 @@ Drifting:
 
 [![IMAGE ALT TEXT](http://img.youtube.com/vi/wErjgSo97Jg/0.jpg)](https://youtu.be/wErjgSo97Jg)
 
-The movement was done by Ryan Chan. The sequence is forward, motors off, quick right turn, and quicker left turn.
+This drifting movement was done by Ryan Chan. The sequence is forward, motors off, quick right turn, and quicker left turn.
 
 
-### Collaboration Credit
+### Collaboration
 
 Collaborated with Jojo Liang and Ryan Chan
