@@ -7,7 +7,7 @@ layout: default
 The goal of the lab is to understand the characteristics and capabilities of the robot before adding motor drive driver for the future labs. 
 Before this lab, the Artemis board, IMU and TOF sensors were soldered and connected.
 
-Force 1 Cyclone Remote Control Car was used with 600mAh and 850mAh battery packs. 
+[Force 1 Cyclone Remote Control Car](https://force1rc.com/products/cyclone-remote-control-car-for-kids-adults) was used with 600mAh and 850mAh battery packs. 
 
 ### Category A: Simple Measurements
 
@@ -15,16 +15,17 @@ Simple measurements were collected without any control of the car. Its length, w
 
 ![manual](img4/manual_pic.jpg)
 
-For the tools, tape measure, ruler and food scale were used.
-
+The following pictures demonstrate the method of measuring the length and weight of the robot. A ruler, tape measure, and food scale were used for the tools:
 ![car with ruler](img4/length.jpg)
 ![car on scale](img4/weight.jpg)
+
+The table demonstrates the static measurements:
 
 |  Length (cm)  |   Width (cm)  |  Height (cm)  |   Weight (g)  | Wheel Diameter (cm) | 
 | ------------- | ------------- | ------------- | ------------- | ------------------- | 
 |     17.9      |     14.2      |      7.9      |      499      |         7.9         | 
 
-After collecting the static measurements, we used a fully charged 850mAh battery to controlled the car to rotate right and measured the battery life time until it stops with stopwatch. The car shaked and could not be controlled once the battery was out. 
+After collecting these static measurements, we used a fully charged 850mAh battery to controlled the car to rotate right and measured the battery life time until it stops with stopwatch. The car shaked and could not be controlled once the battery was out. 
 
 ![850mah battery](img4/850mAh.jpg)
 
@@ -73,7 +74,7 @@ Average rotational speed with 850mAh was also measured by pressing right botton 
 | Average Measurement |           11.96         |             11.76          |         4.0 rev/sec         |
 
 
-### Stunts: 
+#### Stunts: 
 
 The model allows double sided stunts with 360 degree rotation. With this dynamic movements, three stunts were demonstrated in the following videos:
 
@@ -92,6 +93,7 @@ Drifting:
 
 The movement was done by Ryan Chan. The sequence is forward, motors off, quick right turn, and quicker left turn.
 
-### Acknowledgements
 
-Collaborated with Jojo Liang & Ryan Chan in ECE4960
+### Collaboration Credit
+
+Collaborated with Jojo Liang and Ryan Chan
