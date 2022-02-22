@@ -67,7 +67,7 @@ Stunts: Flipping & Rotation & auto trick & drift
 *videos*
 
 Rotating right and left:
-https://youtu.be/PPllbOeb7gg
+[![IMAGE ALT TEXT](http://img.youtube.com/vi/PPllbOeb7gg/0.jpg)](https://youtu.be/PPllbOeb7gg)
 
 Flipping: 
 https://youtu.be/OfAg5bLzBa8
