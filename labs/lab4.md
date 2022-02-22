@@ -3,10 +3,10 @@ layout: default
 ---
 
 # Lab 4: Characterize your car
-[main picture](img4/cyclone_car.jpg)
+![main picture](img4/cyclone_car.jpg)
 
-The goal of the lab is to understand the characteristics and capabilities of the robot before adding motor drive driver for the future labs. 
-Before this lab, the Artemis board, IMU and TOF sensors were soldered and connected.
+The goal of the lab is to understand the characteristics and capabilities of the robot before adding a motor drive driver for future labs. 
+Before this lab, the Artemis board, IMU, and TOF sensors were soldered and connected.
 
 [Force 1 Cyclone Remote Control Car](https://force1rc.com/products/cyclone-remote-control-car-for-kids-adults) was used with 600mAh and 850mAh battery packs. 
 
@@ -14,7 +14,7 @@ Before this lab, the Artemis board, IMU and TOF sensors were soldered and connec
 
 Simple measurements were collected without any control of the car. Its length, width and wheel diameter are measured as shown in the manual below:
 
-![manual](img4/manual_pic.jpg = 100x20)
+![manual](./img4/manual_pic.jpg)
 
 The following pictures demonstrate the method of measuring the length and weight of the robot. A ruler, tape measure, and food scale were used for the tools:
 ![car with ruler](img4/length.jpg)
@@ -26,11 +26,11 @@ The table demonstrates the static measurements:
 | ------------- | ------------- | ------------- | ------------- | ------------------- | 
 |     17.9      |     14.2      |      7.9      |      499      |         7.9         | 
 
-After collecting these static measurements, we used a fully charged 850mAh battery to controlled the car to rotate right and measured the battery life time until it stops with stopwatch. The car shaked and could not be controlled once the battery was out. 
+After collecting these static measurements, we used a fully charged 850mAh battery to control the car to rotate right and measured the battery time until it stopped with a stopwatch. The car was shaken and could not be controlled once the battery was out. 
 
 ![850mah battery](img4/850mAh.jpg)
 
-We tried to measure the charging time; however, it took too long to charge. We calculated the estimate charging time by measuring the current with a multimeter which measured to be 50mA. To fully charge the 850mAh battery, it will estimately take 17 hours. The picture below shows the tools used in this lab, including the multimeter:
+We tried to measure the charging time; however, it took too long to charge. We calculated the estimated charging time by measuring the current with a multimeter which measured to be 50mA. To fully charge the 850mAh battery, it will estimatedly take 17 hours. The picture below shows the tools used in this lab, including the multimeter:
 
 ![tools](img4/tools.jpg)
 
@@ -48,27 +48,27 @@ After collecting the static measurements, we set up and measured experimental da
 
 ![650 battery](img4/600mAh.jpg)
 
-Using 600mAh as shown above, braking distance and decceletaion were measured on the tile in Phillips Hall.
-We controlled the car to move forward and immediately back on the point where the tape measure starts. When the car stopped, we collected the distance and the time data. The video below shows how the braking distance (ft) and braking time (s) were collected by using a tape measure.
+Using 600mAh as shown above, braking distance and deceletaion were measured on the tile in Phillips Hall.
+We controlled the car to move forward and immediately back to the point where the tape measure starts. When the car stopped, we collected the distance and the time data. The video below shows how the braking distance (ft) and braking time (s) were collected by using a tape measure.
 
 [![IMAGE ALT TEXT](http://img.youtube.com/vi/xqCNV086g_8/0.jpg)](https://youtu.be/xqCNV086g_8)
 
 Deceleration was calculated with the formula of acceleration: a = 2 * displacement / (time^2).
-The constant deceleration was assumped in the calculation. The average of multiple measurements are in the table below:
+The constant deceleration was assumed in the calculation. The average of multiple measurements are in the table below:
 
 |   Tests on Tile    | Braking Distance (ft) | Braking Time (s) | Deceleration (ft/m^2) |
 | ------------------ | --------------------- | ---------------- |---------------------- |
 | Average Measurement|          4.667        |      1.21        |          6.375        |
 
-The tests were also conducted with different conditions. The 850 mAh battery was used and experiment was conducted on carpet, but the braking distance was not able to be measured because the car kept on flipping instead of braking due to more powerful battery and higher resistance on the surface. 
+The tests were also conducted with different conditions. The 850 mAh battery was used, and an experiment was conducted the carpet in Phillpis Hall. However, the braking distance was not able to be measured because the car kept on flipping instead of braking due to a more powerful battery and higher resistance on the surface. 
 
 The 850mAh battery was used for the rest of the tests below. Maximum speed was measured with distance (11 ft) marked by tapes and timestamps in the following video:
 
 [![IMAGE ALT TEXT](http://img.youtube.com/vi/jtWkd7p5gCs/0.jpg)](https://youtu.be/jtWkd7p5gCs)
 
-Using the "Edit" function in the iphone photo app, the specific time when the car crosses the starting and ending line can be found. During this measurement, important observation was made. As also shown in the video above, the robot does not move straightly. It varies by cars, but my robot moves relatively straight when it goes backward. All the measurements were conducted with backward movement. 
+Using the "Edit" function in the iPhone photo app, the specific time when the car crosses the starting and ending line can be found. During this measurement, an important observation was made. As also shown in the video above, the robot does not move straightly. It varies by car, but my robot moves relatively straight when it goes backward. All the measurements were conducted with backward movement. 
 
-Average rotational speed with 850mAh was also measured by pressing right botton on the remote control and analyzing the timestamps in the video. The video can be found in Stunts section. It is observed that the car can rotate around its own axis, but the axis moves in a random direction, not staying in the same location. 
+The average rotational speed with 850mAh was also measured by pressing the right button on the remote control and analyzing the timestamps in the video. The video can be found in the Stunts section. It is observed that the car can rotate around its own axis, but the axis moves in a random direction, not staying in the same location. 
 
 |         Tests       | Max Speed on Tile(ft/s) | Max Speed on Carpet (ft/s) |  Average Rotational speed   | 
 | ------------------- | ----------------------- | -------------------------- | --------------------------- |
@@ -77,7 +77,7 @@ Average rotational speed with 850mAh was also measured by pressing right botton 
 
 #### Stunts: 
 
-The model allows double sided stunts with 360 degree rotation. With this dynamic movements, three stunts were demonstrated in the following videos:
+The model allows double-sided stunts with 360-degree rotation. With these dynamic movements, three stunts were demonstrated in the following videos:
 
 Rotating right and left:
 
