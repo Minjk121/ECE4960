@@ -36,7 +36,7 @@ We tried to measure the charging time; however, it took too long to charge. We c
 
 Table demonstrates the measured battery time and estimated battery charging time in seconds:
 
-|  Battery Time (s) | Est. Charging Time (s) |
+|  Battery Time     | Est. Charging Time     |
 | ----------------- | ---------------------- |
 |  7 min 52.9 sec   |         17 hrs         |
 
