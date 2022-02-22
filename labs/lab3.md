@@ -26,9 +26,11 @@ As we use [Qwiic cable](https://www.sparkfun.com/products/14426), we can connect
 2. The ToF sensor has three modes: ``` .setDistanceModeShort(), .setDistanceModeMedium(), .setDistanceModeLong(); ```
 According to the [datasheet](https://cdn.sparkfun.com/assets/8/9/9/a/6/VL53L0X_DS.pdf), the short distance mode is more immune to ambient light but limied to 1.3m, and the long mode have a limit of 4m but impacted by ambient light. The medium mode is middle-ranging and gets an average impact of ambient light, comparing to the short and long modes.
 
-At each distance from 200mm to 2000mm, 50 measurements were collected averaged as shown below:
+3. Based on the Example file called ReadDistance, the test for ToF sensor was conducted. At each distance from 200mm to 2000mm, 50 measurements were collected and averaged as shown below:
 
 ![graph_tof](img3/lab3_tof.png)
+
+4. Both ToF sensors were hooked up and simultaneously powered up. To deal with I2C address of two sensors, I decided to reset the one sensor's address by using ```setI2CAddress()```.
 
 ## Inertial Measurement Unit (IMU)
 
