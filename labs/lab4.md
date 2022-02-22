@@ -65,3 +65,15 @@ The 850mAh battery was used for the rest of the tests.
 Stunts: Flipping & Rotation & auto trick & drift
 
 *videos*
+
+Rotating right and left:
+https://youtu.be/PPllbOeb7gg
+
+Flipping: 
+https://youtu.be/OfAg5bLzBa8
+
+Drifting: 
+https://youtu.be/wErjgSo97Jg
+The movement was done by Ryan Chan. The sequence is forward, motors off, quick right turn, and quicker left turn.
+
+Collaborated with Jojo Liang & Ryan Chan in ECE4960
