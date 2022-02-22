@@ -17,8 +17,8 @@ Simple measurements were collected without any control of the car. Its length, w
 
 For the tools, tape measurement, ruler and food scale were used.
 
-![car with ruler](https://github.com/Minjk121/ECE4960/blob/c7822b680428b86b536d338eee6e507c0075e754/img/length.jpg)
-![car on scale](https://github.com/Minjk121/ECE4960/blob/c7822b680428b86b536d338eee6e507c0075e754/img/weight.jpg)
+![car with ruler](img4/length.jpg)
+![car on scale](img4/weight.jpg)
 
 |  Length (cm)  |   Width (cm)  |  Height (cm)  |   Weight (g)  | Wheel Diameter (cm) | 
 | ------------- | ------------- | ------------- | ------------- | ------------------- | 
@@ -26,11 +26,11 @@ For the tools, tape measurement, ruler and food scale were used.
 
 After collecting the static measurements, we measured average rotational speed with 850mAh by pressing right botton on the remote control and analyzing the timestamps in the video. We then used a fully charged 850mAh battery to controlled the car to rotate and measured the battery life time until it stops with stopwatch. The car shaked and could not be controlled once the battery is out. 
 
-![850mah battery](https://github.com/Minjk121/ECE4960/blob/e21d8febc4412898dc30eac1a233ac08a9904f7b/img/850mAh.jpg)
+![850mah battery](img4/850mAh.jpg)
 
 We tried to measure the charging time; however, it took too long to charge. We calculated the estimate charging time by measuring the current with a multimeter which measured to be 50mA. To fully charge the 850mAh battery, it will estimately take 17 hours. 
 
-![tools](https://github.com/Minjk121/ECE4960/blob/e21d8febc4412898dc30eac1a233ac08a9904f7b/img/tools.jpg)
+![tools](img4/tools.jpg)
 
 |   Average Rotational speed  |  Battery Time (s) | Est. Charging Time (s) |
 | --------------------------- | ----------------- | ---------------------- |
