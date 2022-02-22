@@ -11,7 +11,7 @@ Force 1 Cyclone Remote Control Car was used with 600mAh and 850mAh battery packs
 
 ### Category A: Simple Measurements
 
-Simple measurements were collected without any control of the car. Its length, width and wheel diameter are measured as shown in the manual below.
+Simple measurements were collected without any control of the car. Its length, width and wheel diameter are measured as shown in the manual below:
 
 ![manual](img4/manual_pic.jpg)
 
@@ -28,9 +28,11 @@ After collecting the static measurements, we used a fully charged 850mAh battery
 
 ![850mah battery](img4/850mAh.jpg)
 
-We tried to measure the charging time; however, it took too long to charge. We calculated the estimate charging time by measuring the current with a multimeter which measured to be 50mA. To fully charge the 850mAh battery, it will estimately take 17 hours. 
+We tried to measure the charging time; however, it took too long to charge. We calculated the estimate charging time by measuring the current with a multimeter which measured to be 50mA. To fully charge the 850mAh battery, it will estimately take 17 hours. The picture below shows the tools used in this lab, including the multimeter:
 
 ![tools](img4/tools.jpg)
+
+Table demonstrates the measured battery time and estimated battery charging time in seconds:
 
 |  Battery Time (s) | Est. Charging Time (s) |
 | ----------------- | ---------------------- |
