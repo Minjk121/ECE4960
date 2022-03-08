@@ -34,10 +34,16 @@ According to the [datasheet](https://cdn.sparkfun.com/assets/8/9/9/a/6/VL53L0X_D
 
 ## Inertial Measurement Unit (IMU)
 
-Using the Example1_Basics from the SparkFun 9DOF IMU Breakout - ICM 20948 - Arduino Library, I tested IMU. In the code, the AD0_VAL is value of the last bit of the I2C address. It is default to set up as 1 but should be changed to 0 because the ADR jumper is closed.
+Using the Example1_Basics from the SparkFun 9DOF IMU Breakout - ICM 20948 - Arduino Library, I set up and tested IMU. In the code, the AD0_VAL is value of the last bit of the I2C address. It is default to set up as 1 but should be changed to 0 because the ADR jumper is closed.
 
-The pictures below show the serial monitor and plotter results. The sensor values change as I rotate, flip, and accelarate the board. 
-
-![imu_data](img3/imu_data.png)
+The pictures below show the serial monitor and plotter results. The sensor values change as I rotate, flip, and accelarate the board. The serial monitor shows accelerometer, gyroscope, nagnetometer values in three axes. The serial plotter shows the gyroscope data in four different colors. The plot shows the result of rotating the board and rotating it back to the original position. The noise can be observed in the plot. 
 ![imu_plot](img3/imu_plot.png)
+![imu_data](img3/imu_data.png)
 
+The accelerometer in z-axis shows 1000 micro tesla which indicates the gravity, while other values are zeros. When I flipped the board, the another axis (x-axis) now shows 1000 micro tesla. 
+![imu_flip](img3/imu_flip.png)
+
+### Accelerometer
+
+1. Based on the pitch and roll equations in class, we can convert accelerometer data into pitch and roll with atan2 and M_PI.
+![calc.png](img3/calc.png.png)
