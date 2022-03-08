@@ -45,5 +45,17 @@ The accelerometer in z-axis shows 1000 micro tesla which indicates the gravity, 
 
 ### Accelerometer
 
-1. Based on the pitch and roll equations in class, we can convert accelerometer data into pitch and roll with atan2 and M_PI.
-![calc.png](img3/calc.png.png)
+1. Based on the pitch and roll equations in class, we can convert accelerometer data into pitch and roll with atan2 and M_PI. I tilted the board from -90 to 90 degrees and got the plot below. My accelerometer is pretty accurate as the output matches the expected output, as shown in the plot.
+![calc.png](img3/calc.png)
+![pitch_roll.png](img3/pitch_roll.png)
+
+The code below is used for getting pitch and roll data.
+``` 
+float pitch_a = 180*atan2(sensor->accX(), sensor->accZ()) / M_PI;
+  float roll_a = 180*atan2(sensor->accY(), sensor->accZ()) / M_PI;
+  SERIAL_PORT.print(" Pitch: ");
+  printFormattedFloat(pitch_a, 5, 2);
+  SERIAL_PORT.print(", ");
+  SERIAL_PORT.print(" Roll: ");
+  printFormattedFloat(roll_a, 5, 2);
+  ```
