@@ -38,6 +38,6 @@ Using the Example1_Basics from the SparkFun 9DOF IMU Breakout - ICM 20948 - Ardu
 
 The pictures below show the serial monitor and plotter results. The sensor values change as I rotate, flip, and accelarate the board. 
 
-![imu_data](img3/imu_data.jpg)
-![imu_plot](img3/imu_plot.jpg)
+![imu_data](img3/imu_data.png)
+![imu_plot](img3/imu_plot.png)
 
