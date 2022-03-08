@@ -34,5 +34,10 @@ According to the [datasheet](https://cdn.sparkfun.com/assets/8/9/9/a/6/VL53L0X_D
 
 ## Inertial Measurement Unit (IMU)
 
-1. 
+Using the Example1_Basics from the SparkFun 9DOF IMU Breakout - ICM 20948 - Arduino Library, I tested IMU. In the code, the AD0_VAL is value of the last bit of the I2C address. It is default to set up as 1 but should be changed to 0 because the ADR jumper is closed.
+
+The pictures below show the serial monitor and plotter results. The sensor values change as I rotate, flip, and accelarate the board. 
+
+![imu_data](img3/imu_data.jpg)
+![imu_plot](img3/imu_plot.jpg)
 
