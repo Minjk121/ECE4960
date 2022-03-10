@@ -59,3 +59,8 @@ float pitch_a = 180*atan2(sensor->accX(), sensor->accZ()) / M_PI;
   SERIAL_PORT.print(" Roll: ");
   printFormattedFloat(roll_a, 5, 2);
   ```
+2. I tried tapping the sensor and plot the frequency response, following the [tutorial](https://www.alphabold.com/fourier-transform-in-python-vibration-analysis/). In the plot, a high peak is observed near at 0 Hz due to DC signal and spikes are shown due to the tapping. I chose the a local maximum of plot as f_c = 7 Hz and used the formula to find a smoothing constant alpha = 0.5.
+![fft.png](img3/fft.png)
+![lpf.png](img3/lpf.png)
+
+
