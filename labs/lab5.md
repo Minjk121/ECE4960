@@ -4,11 +4,16 @@ layout: default
 
 # Lab 5: Motor driver and open loop control
 
-The goal of the lab is to implement two dual motor drivers with the Artemis board and change from manual to open loop control. The car is controlled by pre-progammed series of moves. 
+The goal of the lab is to implement two dual motor drivers with the Artemis board and change from manual to open loop control. The car is designed to acheive a speed as a "fast robot" and controlled by pre-progammed series of moves. 
 
 ## Prelab
 
+Two dual motor drivers are used with two inputs and outputs connected on each driver. These connections are made to control the robot "fast" enough with delivering enough current. 
+By the same reasoning, it is recommended to power the Artemis and the motor drivers from separate batteries for the maximum current flow. 
+The [schematics](https://cdn.sparkfun.com/assets/5/5/1/6/3/RedBoard-Artemis-Nano.pdf) indicates that some pins should not be connected by showing the functionality.
 Based on the [datasheet](https://www.ti.com/lit/ds/symlink/drv8833.pdf?HQS=dis-dk-null-digikeymode-dsf-pf-null-wwe&ts=1646971142340&ref_url=https%253A%252F%252Fcei-lab.github.io%252F), the wiring connections are planned as shown in the diagram below:
 ![sch](./img5/sch.jpg)
 
-##
+## Lab
+
+
