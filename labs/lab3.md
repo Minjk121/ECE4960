@@ -51,8 +51,8 @@ The accelerometer in z-axis shows 1000 micro tesla which indicates the gravity, 
 
 The code below is used for getting pitch and roll data.
 ``` 
-float pitch_a = 180*atan2(sensor->accX(), sensor->accZ()) / M_PI;
-  float roll_a = 180*atan2(sensor->accY(), sensor->accZ()) / M_PI;
+  float pitch_a = 180*atan2(sensor->accY(), sensor->accZ()) / M_PI;
+  float roll_a = 180*atan2(sensor->accX(), sensor->accZ()) / M_PI;
   SERIAL_PORT.print(" Pitch: ");
   printFormattedFloat(pitch_a, 5, 2);
   SERIAL_PORT.print(", ");
@@ -70,7 +70,22 @@ The plot shows no more big spikes, but there still exists a noise for pitch and 
 
 1. Based on the lecture notes, the pitch, roll and yaw angles were calculated from the data collected from the gyroscope. The lecture note shows that ```theta_g = theta_g - gyr_reading*dt``` for using the gyroscope to measure angles. 
 
-The plot shows the pitch angle data from the gyroscope. Compared to the accelerometer pitch data, it has more noise and appeared to have a faster response time to the changes in angle.
+The following plots show the pitch, roll and yaw angle data from the gyroscope. Compared to the accelerometer pitch data, it has more noise and appeared to have a faster response time to the changes in angle.
+![pitch.png](img3/pitch.png)
+![roll.png](img3/roll.png)
+![yaw.png](img3/yaw.png)
+
+The following code was used:
+```
+   d_t = 0.001* (millis() - time_stamp);
+   time_stamp = millis();
+   pitch_g =  pitch_g - sensor->gyrY() * d_t;
+   roll_g =  roll_g - sensor->gyrX() * d_t;
+   yaw_g =  yaw_g - sensor->gyrZ() * d_t;
+```
+I decreased the sampling rate by increasing the delay time to 30ms to 60ms. Decreasing the sampling rate resulted more noise and spikes in the plot.
+![lower.png](img3/lower.png)
+
 
 ### Complimentary filter
 
