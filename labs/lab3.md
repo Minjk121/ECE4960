@@ -89,4 +89,6 @@ I decreased the sampling rate by increasing the delay time to 30ms to 60ms. Decr
 
 ### Complimentary filter
 
-The complimentary filter was used for the last part of the lab. The formula for measuring the angle using the complimentary filter is ``` theta = (theta + theta_g * dt)(1 - alpha) + theta_a * alpha```. 
+The complimentary filter was used for the last part of the lab. The formula for measuring the angle using the complimentary filter is ``` theta = (theta + theta_g * dt)(1 - alpha) + theta_a * alpha```. The complimentary filter allows to get more stable and accurate data.
+
+![comp.png](img3/comp.png)
