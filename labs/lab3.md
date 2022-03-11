@@ -63,4 +63,15 @@ float pitch_a = 180*atan2(sensor->accX(), sensor->accZ()) / M_PI;
 ![fft.png](img3/fft.png)
 ![lpf.png](img3/lpf.png)
 
+The plot shows no more big spikes, but there still exists a noise for pitch and roll angle s even after applying the low pass filter. 
+![afterlpf.png](img3/afterlpf.png)
 
+### Gyroscope
+
+1. Based on the lecture notes, the pitch, roll and yaw angles were calculated from the data collected from the gyroscope. The lecture note shows that ```theta_g = theta_g - gyr_reading*dt``` for using the gyroscope to measure angles. 
+
+The plot shows the pitch angle data from the gyroscope. Compared to the accelerometer pitch data, it has more noise and appeared to have a faster response time to the changes in angle.
+
+### Complimentary filter
+
+The complimentary filter was used for the last part of the lab. The formula for measuring the angle using the complimentary filter is ``` theta = (theta + theta_g * dt)(1 - alpha) + theta_a * alpha```. 
