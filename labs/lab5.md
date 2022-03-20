@@ -7,6 +7,9 @@ layout: default
 The goal of the lab is to implement two dual motor drivers with the Artemis board and change from manual to open loop control. The car is designed to acheive a speed as a "fast robot" and controlled by pre-progammed series of moves. 
 
 ## Prelab
+Before the lab, I configured the bluetooth fucntion (lab 2) for the ocmmunication between the computer and Artemis board. I couldn't do this on my labtop because my labtop has Windows 11. After setting up th bluetooth, the address of my Artemis board has been found to be:
+
+Advertising BLE with MAC: c0:7:c1:8d:38:44
 
 Two dual motor drivers are used with two inputs and outputs connected on each driver. These connections are made to control the robot "fast" enough with delivering enough current. 
 By the same reasoning, it is recommended to power the Artemis and the motor drivers from separate batteries for the maximum current flow. 
