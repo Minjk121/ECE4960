@@ -16,4 +16,31 @@ Based on the [datasheet](https://www.ti.com/lit/ds/symlink/drv8833.pdf?HQS=dis-d
 
 ## Lab
 
+I connected the power and signal inputs of motor driver to the Artemis with parallel coupled outputs. I kept the mottor driver (VIN) powered from an external battery for a quick test but would also be reasonable to connect it to the Artemis board because it has the same nominal voltage. 
+
+I used analogWrite() command to generate PWM dignals with following code:
+```
+
+void setup() {
+  // put your setup code here, to run once:
+  pinMode(6, OUTPUT);
+  pinMode(A5, OUTPUT);
+  pinMode(4, OUTPUT);
+  pinMode(A3, OUTPUT);
+}
+
+void loop() {
+  // put your main code here, to run repeatedly:
+  analogWrite(6, 100);
+  analogWrite(A5, 100);
+  analogWrite(4, 100);
+  analogWrite(A3, 100);
+}
+```
+Then, I used an oscilloscope to show that I successfully regulated the power on the output for the motors, as shown below:
+![osc](./img5/osc.jpg)
+
+The car was taken apart, and the motor drivers were soldered with 850mAh battery connected. 
+![general](./img5/general.jpg)
+
 
