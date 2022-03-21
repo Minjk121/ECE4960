@@ -7,6 +7,10 @@ layout: default
 The goal of the lab is to implement two dual motor drivers with the Artemis board and change from manual to open loop control. The car is designed to acheive a speed as a "fast robot" and controlled by pre-progammed series of moves. 
 
 ## Prelab
+Before the lab, I configured the bluetooth fucntion (lab 2) for the communication between the computer and Artemis board. The lab computer was used instead of my own laptop because the arduino error with Windows 11 OS. After setting up the bluetooth, the address of my Artemis board has been found to be:
+
+Advertising BLE with MAC: c0:07:c1:8d:38:44
+
 Two dual motor drivers are used with two inputs and outputs connected on each driver. These connections are made to control the robot "fast" enough with delivering enough current. 
 By the same reasoning, it is recommended to power the Artemis and the motor drivers from separate batteries for the maximum current flow. 
 The [schematics](https://cdn.sparkfun.com/assets/5/5/1/6/3/RedBoard-Artemis-Nano.pdf) indicates that some pins should not be connected by showing the functionality.
