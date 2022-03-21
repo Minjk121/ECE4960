@@ -46,4 +46,62 @@ Then, I used an oscilloscope to show that I successfully regulated the power on 
 The car was taken apart, and the motor drivers were soldered with 850mAh battery connected. 
 ![general](./img5/general.jpg)
 
+To test the basic control of the motor drivers, I used the following codes:
+
+```
+void loop() {
+  // Task 1
+
+  // forward
+  analogWrite(6, 0);
+  analogWrite(A5, 100);
+  analogWrite(4, 100);
+  analogWrite(A3, 0);
+  delay(1000);
+  
+  // coast
+  analogWrite(6, 0);
+  analogWrite(A5, 0);
+  analogWrite(4, 0);
+  analogWrite(A3, 0);
+  delay(1000);
+  
+  // reverse
+  analogWrite(6, 100);
+  analogWrite(A5, 0);
+  analogWrite(4, 0);
+  analogWrite(A3, 100);
+  delay(1000);
+  
+  // brake
+  analogWrite(6, 255);
+  analogWrite(A5, 255);
+  analogWrite(4, 255);
+  analogWrite(A3, 255);
+  delay(1000);
+}
+```
+To test the lower limit for which each motor still turns while on the ground, I used the following code:
+
+```
+  // Task 2: turn and find the low limit
+  while(turn <= 100){
+    analogWrite(6, 0);
+    analogWrite(A5, turn);
+    analogWrite(4, 0);
+    analogWrite(A3, turn);
+
+    Serial.print("Forward value: ");
+    Serial.println(turn);
+    turn++;
+    delay(1000);
+  }
+    // coast
+  analogWrite(6, 0);
+  analogWrite(A5, 0);
+  analogWrite(4, 0);
+  analogWrite(A3, 0);
+  delay(10000);
+```
+
 
