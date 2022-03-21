@@ -103,5 +103,5 @@ To test the lower limit for which each motor still turns while on the ground, I 
   analogWrite(A3, 0);
   delay(10000);
 ```
-[![IMAGE ALT TEXT](https://youtu.be/3yQ1RO_84jY)
+[![IMAGE ALT TEXT](https://www.youtube.com/watch?v=3yQ1RO_84jY)
 
