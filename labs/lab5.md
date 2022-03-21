@@ -46,7 +46,7 @@ Then, I used an oscilloscope to show that I successfully regulated the power on 
 The car was taken apart, and the motor drivers were soldered with 850mAh battery connected. 
 ![general](./img5/general.jpg)
 
-To test the basic control of the motor drivers, I used the following codes:
+To test the basic controls of the motor drivers, I used the following codes:
 
 ```
 void loop() {
