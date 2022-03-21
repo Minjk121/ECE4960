@@ -107,5 +107,6 @@ To test the lower limit for which each motor still turns while on the ground, I 
 ## Test videos
 
 In the video, the robot car first moves backward, brake (slow stop), forward and coast (slow stop) and repeats.
+
 [![IMAGE ALT TEXT](http://img.youtube.com/vi/3yQ1RO_84jY/0.jpg)](https://youtu.be/3yQ1RO_84jY)
 
