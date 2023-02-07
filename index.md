@@ -9,18 +9,18 @@ layout: default
 In this course, we design a fast autonomous car and explore dynamic behaviors, acting forces, sensors, and reactive control on an embedded processor. We implement Artemis Nano, motor drivers, time of flight sensors, proximity sensor, and intertial measurement unit. More information can be found [here](https://cei-lab.github.io/ECE4960-2022/).
 
 --
-### [Lab 1 & 2: Artemis & Bluetooth](labs/lab1_2.html)
+### [Artemis & Bluetooth](labs/lab1_2.html)
 ![lab1 picture](img/artemis.jpg)
-### [Lab 3: Sensors](labs/lab3.html)
+### [Sensors](labs/lab3.html)
 ![lab3 picture](img/soldered_parts.jpg)
-### [Lab 4: Characterize your car](labs/lab4.html)
+### [Characterize your car](labs/lab4.html)
 ![lab4 picture](img/cyclone_car.jpg)
-### [Lab 5: Motor driver and open loop control](labs/lab5.html)
+### [Motor driver and open loop control](labs/lab5.html)
 ![lab5 picture](img/lab5.jpg)
-### [Lab 6: PID speed control](labs/lab6.html)
+<!-- ### [PID speed control](labs/lab6.html)
 ### [Lab 7: Kalman Filters](labs/lab7.html)
 ### [Lab 8: Stunts](labs/lab8.html)
-### [Lab 9: Mapping](labs/lab9.html)
+### [Lab 9: Mapping](labs/lab9.html) -->
 <!-- --
 Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
 
