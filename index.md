@@ -17,10 +17,12 @@ In this course, we design a fast autonomous car and explore dynamic behaviors, a
 ![lab4 picture](img/cyclone_car.jpg)
 ### [Motor driver and open loop control](labs/lab5.html)
 ![lab5 picture](img/lab5.jpg)
+
+
 <!-- ### [PID speed control](labs/lab6.html)
-### [Lab 7: Kalman Filters](labs/lab7.html)
-### [Lab 8: Stunts](labs/lab8.html)
-### [Lab 9: Mapping](labs/lab9.html) -->
+### [Kalman Filters](labs/lab7.html)
+### [Stunts](labs/lab8.html)
+### [Mapping](labs/lab9.html) -->
 <!-- --
 Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
 
